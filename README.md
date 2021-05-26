@@ -11,6 +11,10 @@
 
 ## False sharing
 
+> In symmetric multiprocessor (SMP) systems, each processor has a local cache. The memory system must guarantee cache coherence. False sharing occurs when threads on different processors modify variables that reside on the same cache line. This invalidates the cache line and forces an update, which hurts performance.
+
+https://software.intel.com/content/www/us/en/develop/articles/avoiding-and-identifying-false-sharing-among-threads.html
+
 <img src="assets/False%20sharing%20effect%20on%20performance.svg"/>
 
 |step|threads |ops                |
