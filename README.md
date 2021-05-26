@@ -1,4 +1,9 @@
-# matrix-multiplication-java
+# Performance Experiments
+
+## Matrix Multiplication
+
+This is a very naïve matrix multiplication used to demonstrate how memory layout of data structure may affect performance. 
+
 
 |Name                    |Elapsed time (ms)|
 |------------------------|----------------:|
